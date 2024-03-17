@@ -96,3 +96,7 @@ prompt.spacing = sparse
 # options: off,always,same_dir
 prompt.transient = off
 
+# name: Changes the prefix of the aliases
+# type: string
+zoxide.cmd = cd
+
