@@ -20,7 +20,13 @@ Add the following to Windows Terminal settings.json
 },
 ```
 
-To set Clink directories for script
+Install scripts
 ```
-clink installscripts DIR
+git clone https://github.com/shunsambongi/clink-zoxide.git
+git clone https://github.com/chrisant996/clink-gizmos.git
+git clone https://github.com/vladimir-kotikov/clink-completions.git
+
+clink installscripts clink_completions
+clink installscripts clink-gizmos
+clink installscripts clink-zoxide
 ```
